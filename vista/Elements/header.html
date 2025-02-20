@@ -13,7 +13,8 @@
             </div>
             <img class="image" src="../src/logo-sapa.svg" />
             <?php 
-                if(str_contains($url,"admin") || str_contains($url,"professors")) include dirname (__FILE__)."/userButton.html";
+                if(str_contains($url,"admin")) include dirname (__FILE__)."/userButtonAd.html";
+                else if(str_contains($url,"professors")) include dirname (__FILE__)."/userButtonPr.html";
                 else include dirname (__FILE__)."/loginButton.html";
               ?>  
           </div>
