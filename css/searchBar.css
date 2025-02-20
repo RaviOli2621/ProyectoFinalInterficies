@@ -1,0 +1,49 @@
+.searchBar
+{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+    height: 100%;
+}
+.searchBar .purple
+{
+    width: 198.356px;
+    height: 46.909px;
+    flex-shrink: 0;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--strong-color);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    color: var(--light-color);
+    font-size: 20px;
+}
+.searchBar .purple img
+{
+    margin: 0.5em;
+}
+.searchBar .light
+{
+    width: 512.644px;
+    height: 46.909px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #F1ECFE;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.searchBar .light input
+{
+    all:unset;
+    margin: 0.5em;
+    width: 90%;
+    height: 80%;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #F1ECFE;
+    border-width: 0cap;
+}

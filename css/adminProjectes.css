@@ -1,0 +1,106 @@
+/*Admin projectes*/
+.projectEdit
+{
+    width: 604px;
+    height: 660px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 6px solid var(--light-color);
+
+    background: #FFF;
+}
+.projectEdit h1,input,textarea
+{
+    margin-left: 50px;
+}
+.projectEdit h1,input,textarea
+{
+    margin-left: 50px;
+}
+.projectEdit input[type=text]
+{
+    width: 262px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--light-color);
+    border-width: 0cap;
+    text-align: center;
+}
+.projectEdit input[type=date]
+{
+    width: 193px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--light-color);
+    border-width: 0cap;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.projectEdit textarea
+{
+    width: 468px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--light-color);
+    resize: none;
+    border-width: 0cap;
+}
+
+.projectRes
+{
+    width: 604px;
+    height: 547px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 10px 10px;
+    border: 6px solid var(--light-color);
+    border-top: 0px solid var(--light-color);
+
+    background: #ffffff00;
+
+    display: block;
+    justify-content: center;
+}
+.projectRes textarea
+{
+    width: 531px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--light-color);
+    resize: none;
+    border-width: 0cap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.projectRes input[type=text]
+{
+    width: 531px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--light-color);
+    border-width: 0cap;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    width: 615px;
+    height: 113px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    background: var(--strong-color);
+    justify-content: center;
+    color: var(--light-color);
+    font-size: 16px;
+}

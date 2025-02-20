@@ -1,0 +1,91 @@
+/*AdminProfessor*/
+.semitransparentCont
+{
+    width: 1400px;
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--transparent-color);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-width: 25px;
+
+    display: block;
+}
+
+
+.purple
+{
+    width: 229px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--strong-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--light-color);
+    font-size: 20px;
+}
+
+.adminProfessorContainer
+{
+    width: 1054px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: var(--light-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-shrink: 0;
+}
+.adminProfessorContainer input[type=checkbox]
+{
+    accent-color: transparent;
+
+}
+
+.adminProfessorContainer input
+{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.adminProfessorContainer .left
+{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 50px;
+
+}
+.adminProfessorContainer .right
+{
+    position: absolute;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.adminProfessorContainer  button
+{
+    position: relative;
+    left: 150px;
+    background-color: transparent;
+    border-width: 0cap;
+}
+.adminProfessorContainer img
+{
+    margin-right: 10px;
+}

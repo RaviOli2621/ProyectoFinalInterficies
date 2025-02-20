@@ -1,0 +1,12 @@
+@import url("variables.css");/*Guardar colores, fuentes...*/
+@import url("header.css");/*Vista del header...*/
+@import url("body.css");/*Vista del body...*/
+@import url("modal.css");/*Vista del body...*/
+@import url("searchBar.css");/*Vista del body...*/
+@import url("usuari.css");/*Vista del body...*/
+@import url("professorsFaltes.css");/*Vista del body...*/
+@import url("pasarLista.css");/*Vista del body...*/
+@import url("adminProfessor.css");/*Vista del body...*/
+@import url("adminProjectes.css");/*Vista del body...*/
+@import url("adminGrup.css");/*Vista del body...*/
+

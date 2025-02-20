@@ -1,0 +1,25 @@
+<div class="box">
+    <div class="group">
+      <div class="overlap-group">
+        <div class="overlap-group-wrapper">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <div class="div">
+              <?php 
+                $url = ($_SERVER['REQUEST_URI']); 
+                if(str_contains($url,"admin")) include dirname (__FILE__)."/adminButtons.html";
+                if(str_contains($url,"professors")) include dirname (__FILE__)."/professorsButtons.html";
+              ?>  
+            </div>
+            <img class="image" src="../src/logo-sapa.svg" />
+            <?php 
+                if(str_contains($url,"admin") || str_contains($url,"professors")) include dirname (__FILE__)."/userButton.html";
+                else include dirname (__FILE__)."/loginButton.html";
+              ?>  
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>

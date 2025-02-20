@@ -1,0 +1,16 @@
+:root
+{
+	--strong-color: #7749F8;
+    --light-color: #F1ECFE;
+    --transparent-color: rgba(241, 236, 254, 0.43);
+    --black-color: #222;
+	--title-font: /*'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/ Arial, Helvetica, sans-serif;
+
+    /*Button related variables*/
+	--hover-color: #936efa;
+    --selected-color: #5227cc;  
+
+    /*ExtraColors*/
+    --green-color: #0AB126;
+
+}
